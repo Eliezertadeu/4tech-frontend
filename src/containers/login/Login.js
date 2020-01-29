@@ -58,8 +58,8 @@ const Login = () => {
                     required
                 >
                 </TextField>
-                <Button type="submit" color="primary">Sign up</Button>
-                <Button color="secondary" onClick={() => { setIsLogin(!isLogin) }}>Back</Button>
+                <Button type="submit" color="primary">Entrar</Button>
+                <Button color="secondary" onClick={() => { setIsLogin(!isLogin) }}>Cadastre-se</Button>
             </Fragment>
         )
     }
@@ -93,8 +93,8 @@ const Login = () => {
                     required
                 >
                 </TextField>
-                <Button type="submit" color="primary">Sign in</Button>
-                <Button color="secondary" onClick={() => setIsLogin(true)}>Login</Button>
+                <Button type="submit" color="primary">Cadastrar</Button>
+                <Button color="secondary" onClick={() => setIsLogin(true)}>Entrar</Button>
             </Fragment>
         )
     };
